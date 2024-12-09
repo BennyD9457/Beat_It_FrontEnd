@@ -29,9 +29,22 @@
 		5CD69D722D03BA8F002090CB /* FrontEndUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontEndUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F1B8A8772D066E5B00510C73 /* Exceptions for "FrontEnd" folder in "FrontEndUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Scenes/BracketView.swift,
+			);
+			target = 5CD69D712D03BA8F002090CB /* FrontEndUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5CD69D5A2D03BA8D002090CB /* FrontEnd */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F1B8A8772D066E5B00510C73 /* Exceptions for "FrontEnd" folder in "FrontEndUITests" target */,
+			);
 			path = FrontEnd;
 			sourceTree = "<group>";
 		};
