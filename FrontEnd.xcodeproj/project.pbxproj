@@ -30,6 +30,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5C4CA8472D0AC73A0057D86F /* Exceptions for "FrontEnd" folder in "FrontEnd" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Scenes/.env,
+			);
+			target = 5CD69D572D03BA8D002090CB /* FrontEnd */;
+		};
 		F1B8A8772D066E5B00510C73 /* Exceptions for "FrontEnd" folder in "FrontEndUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -39,10 +46,22 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		5C4CA8482D0AC73A0057D86F /* Exceptions for "FrontEnd" folder in "Compile Sources" phase from "FrontEnd" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 5CD69D542D03BA8D002090CB /* Sources */;
+			membershipExceptions = (
+				Scenes/.env,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5CD69D5A2D03BA8D002090CB /* FrontEnd */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				5C4CA8472D0AC73A0057D86F /* Exceptions for "FrontEnd" folder in "FrontEnd" target */,
+				5C4CA8482D0AC73A0057D86F /* Exceptions for "FrontEnd" folder in "Compile Sources" phase from "FrontEnd" target */,
 				F1B8A8772D066E5B00510C73 /* Exceptions for "FrontEnd" folder in "FrontEndUITests" target */,
 			);
 			path = FrontEnd;
