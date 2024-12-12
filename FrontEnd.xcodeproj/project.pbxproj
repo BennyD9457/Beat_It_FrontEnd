@@ -24,14 +24,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C4CA8BB2D0BA0BC0057D86F /* FrontEnd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FrontEnd.xcodeproj; sourceTree = "<group>"; };
 		5CD69D582D03BA8D002090CB /* FrontEnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrontEnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD69D682D03BA8F002090CB /* FrontEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD69D722D03BA8F002090CB /* FrontEndUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrontEndUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5C4CA8472D0AC73A0057D86F /* Exceptions for "FrontEnd" folder in "FrontEnd" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Scenes/.env,
+			);
+			target = 5CD69D572D03BA8D002090CB /* FrontEnd */;
+		};
+		F1B8A8772D066E5B00510C73 /* Exceptions for "FrontEnd" folder in "FrontEndUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Scenes/BracketView.swift,
+			);
+			target = 5CD69D712D03BA8F002090CB /* FrontEndUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		5C4CA8482D0AC73A0057D86F /* Exceptions for "FrontEnd" folder in "Compile Sources" phase from "FrontEnd" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 5CD69D542D03BA8D002090CB /* Sources */;
+			membershipExceptions = (
+				Scenes/.env,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5CD69D5A2D03BA8D002090CB /* FrontEnd */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5C4CA8472D0AC73A0057D86F /* Exceptions for "FrontEnd" folder in "FrontEnd" target */,
+				5C4CA8482D0AC73A0057D86F /* Exceptions for "FrontEnd" folder in "Compile Sources" phase from "FrontEnd" target */,
+				F1B8A8772D066E5B00510C73 /* Exceptions for "FrontEnd" folder in "FrontEndUITests" target */,
+			);
 			path = FrontEnd;
 			sourceTree = "<group>";
 		};
@@ -72,6 +105,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C4CA8C62D0BA0BC0057D86F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5CD69D4F2D03BA8D002090CB = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +238,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5CD69D592D03BA8D002090CB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5C4CA8C62D0BA0BC0057D86F /* Products */;
+					ProjectRef = 5C4CA8BB2D0BA0BC0057D86F /* FrontEnd.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5CD69D572D03BA8D002090CB /* FrontEnd */,
