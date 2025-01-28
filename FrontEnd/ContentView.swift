@@ -2,14 +2,17 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var userProfile: UserProfile?
-
+    
     var body: some View {
-        if let userProfile = userProfile {
-            ProfileView(userProfile: userProfile)
-        } else {
-            LoginView(onLoginSuccess: { profile in
-                userProfile = profile
-            })
+        NavigationView {
+            if let profile = userProfile {
+                Text("Welcome, \(profile.username)!")
+            } else {
+                // Ensure LoginView accepts the closure correctly
+                LoginView(onLoginSuccess: { profile in
+                    userProfile = profile
+                })
+            }
         }
     }
 }
